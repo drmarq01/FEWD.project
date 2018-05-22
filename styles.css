@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  background: yellow;
+}
+
+p {
+  margin-left: 60px;
+  padding-right: 75%;
+  font-size: 25px;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+  color: red;
+}
+
+form {
+  margin-bottom: 60px;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
