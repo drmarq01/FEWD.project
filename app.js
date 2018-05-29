@@ -1,0 +1,1 @@
+window.alert("VELCOME TO ZEE VILD & VOOLLY VEBPAGE");
