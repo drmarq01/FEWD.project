@@ -1,3 +1,7 @@
-[class="form-contact"] {
-  padding: 20px 24px;
+
+
+/*  DRY Classes  */
+
+.bg {
+  background: aqua;
 }

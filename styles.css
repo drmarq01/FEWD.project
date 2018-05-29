@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   background: yellow;
+  margin: auto;
 }
 
 p {
@@ -53,11 +54,22 @@ label {
 }
 
 .form-contact {
-  background: aqua;
+  min-width:100%;
 }
 
  .col {
    display: inline-block;
    width: 50%;
    margin-right: -4px;
+   padding-left: 1em;
+   padding-right: 1em;
  }
+
+/*  MEDIA QUERIES */
+
+@media (min-width: 769px) {
+
+  .main-footer {
+    margin: 0 auto;
+  }
+}
