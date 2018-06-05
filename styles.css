@@ -1,4 +1,12 @@
 /* FLEX LAYOUT */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrap {
+  min-height: 100%
+}
 
 .content {
   display: flex;
@@ -93,6 +101,7 @@ h6 {
   }
 
   .form-contact {
+    height: 0;
     font-size: 15px;
   }
 
@@ -114,7 +123,6 @@ h6 {
 
 label {
   display: block;
-  margin-bottom: 0.5em;
   background: aqua;
 }
 
