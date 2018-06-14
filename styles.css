@@ -1,16 +1,28 @@
-/* FLEX LAYOUT */
+/*  LAYOUT STYLE */
+
+* {
+  box-sizing: border-box;
+  background: yellow;
+}
+
+
+/* img {
+  margin-left: 60px;
+  padding-right: 75%;
+} */
+
+label {
+  display: block;
+  background: aqua;
+}
+
 html, body {
   height: 100%;
   margin: 0;
 }
 
 .wrap {
-  min-height: 100%
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
+  min-height: 100%;
 }
 
 h1 {
@@ -42,10 +54,37 @@ h6 {
   margin-bottom: 150px;
 }
 
+/* FLEX LAYOUT */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 45px auto;
+  padding: 10px;
+
+}
+
+  /* MEDIA QUERIES */
+
+@media all and (min-width: 360px){
+  .content {
+    width: 800px;
+  }
+
+  .col {
+    width: 50%;
+    margin-right: -4px;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
 
 @media all and (min-width: 442px){
   .content {
     flex-direction: row;
+    width: auto;
   }
 
   h1 {
@@ -73,6 +112,7 @@ h6 {
 }
 
 @media all and (min-width: 766px) {
+
   .content {
     flex-direction: row;
   }
@@ -106,41 +146,3 @@ h6 {
   }
 
 }
-
-/* STYLING */
-
-* {
-  box-sizing: border-box;
-  background: yellow;
-}
-
-
-
-/* img {
-  margin-left: 60px;
-  padding-right: 75%;
-} */
-
-label {
-  display: block;
-  background: aqua;
-}
-
-/*  LAYOUT STYLE */
-
-.name {
-    text-decoration: none;
-}
-
-.content {
-  padding-left: 1em;
-  padding-right: 1em;
-}
-
- .col {
-   display: inline-block;
-   width: 50%;
-   margin-right: -4px;
-   padding-left: 1em;
-   padding-right: 1em;
- }
