@@ -1,3 +1,3 @@
-$('.html').on('click', function(){
-  $('.html').css('backgroundColor', "red");
+$('.button').on('click', function(event){
+  alert('You sure??');
 });
