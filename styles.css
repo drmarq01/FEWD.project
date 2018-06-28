@@ -14,6 +14,32 @@ html, body {
   margin: auto;
 }
 
+nav {
+  display: block;
+  background-color: lightgray;
+  padding-bottom: 10px;
+}
+
+a.navbar {
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, .barbie {
+  display: inline-block;
+}
+
+.barbie {
+  max-width: 5%;
+  max-height: 5%;
+  border-radius: 10%;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
 .wrap {
   min-height: 70%;
 }
@@ -62,6 +88,11 @@ h6 {
   flex-grow: 1;
   justify-content: space-between;
 }
+
+.bg {
+  background: aqua;
+}
+
 
 .zardoz {
   display: block;
@@ -117,6 +148,12 @@ h6 {
 }
 
 @media all and (min-width: 766px) {
+
+  nav {
+	font-size: .95em;
+	color: #3acec2;
+	text-transform: uppercase;
+  }
 
   .wrap {
     min-height: auto;
