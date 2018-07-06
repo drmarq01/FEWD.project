@@ -101,23 +101,23 @@ h6 {
 
   /* MEDIA QUERIES
 
-MIGHT USE AGAIN LATER WITHOUT AJAX
+MIGHT USE AGAIN LATER WITHOUT AJAx
 
    */
 
-/* @media all and (min-width: 360px){
-  .content {
+@media all and (min-width: 360px){
+  /* .content {
     width: 800px;
   } */
 
 /* DONT MOVE or DELETE FUCKS WITH FLEXBOX!!!!!!! */
-  /* .col {
-    width: 50%;
+  .col {
+    width: 100%;
     margin-right: -4px;
     padding-left: 1em;
     padding-right: 1em;
   }
-} */
+}
 
 @media all and (min-width: 442px){
   .content {
@@ -158,6 +158,10 @@ MIGHT USE AGAIN LATER WITHOUT AJAX
 
   .wrap {
     min-height: auto;
+  }
+
+  .col {
+    width: 50%;
   }
 
   h1 {
