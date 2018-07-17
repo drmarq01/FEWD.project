@@ -2,7 +2,6 @@
 
 * {
   box-sizing: border-box;
-  /* background: yellow; */
 }
 
 label {
@@ -99,18 +98,13 @@ h6 {
   width: 50%;
 }
 
-  /* MEDIA QUERIES
-
-MIGHT USE AGAIN LATER WITHOUT AJAx
-
-   */
+  /* MEDIA QUERIES */
 
 @media all and (min-width: 360px){
-  /* .content {
-    width: 800px;
-  } */
 
 /* DONT MOVE or DELETE FUCKS WITH FLEXBOX!!!!!!! */
+
+
   .col {
     width: 100%;
     margin-right: -4px;

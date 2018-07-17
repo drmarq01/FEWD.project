@@ -1,9 +1,15 @@
 # FEWD.project
 
-Just a standard webpage of random things.
+I just put together a webpage of random content.  
 
-Document adjusts to multiple screen sizes.
+View webpage by launching the index.html file.
 
-Clicking anywhere changes background to random color.
+Active link in the header opens webpage in another tab.
+
+Page and content are responsive to all screen sizes.
+
+I added two javascript functions:
+
+Clicking anywhere on the background randomly changes the background color.
 
 Clicking "submit" & "reset" prompts a js alert.
